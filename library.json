@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "publication_year": 2008,
+        "genre": "Software Development",
+        "read_status": true,
+        "added_data": "2025-03-21 14:59:09"
+    },
+    {
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt, David Thomas",
+        "publication_year": 1999,
+        "genre": "Software Engineering",
+        "read_status": false,
+        "added_data": "2025-03-21 14:55:06"
+    },
+    {
+        "title": "You Don't Know JS",
+        "author": "Kyle Simpson",
+        "publication_year": 2014,
+        "genre": "JavaScript, Web Development",
+        "read_status": false,
+        "added_data": "2025-03-21 14:50:00"
+    },
+    {
+        "title": "Design Patterns",
+        "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+        "publication_year": 1994,
+        "genre": "Software Design",
+        "read_status": true,
+        "added_data": "2025-03-21 14:40:10"
+    }
+]
