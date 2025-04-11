@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 import json
 import os
-import datetime
+from datetime import datetime
 import requests
 import time
+import random
 import plotly.express as px
 import plotly.graph_objects as go  
 from streamlit_lottie import st_lottie
