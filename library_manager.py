@@ -9,7 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go  
 from streamlit_lottie import st_lottie
 
-# set page configuration
+# set page conf
 st.set_page_config(page_title="Personal Library Management System", 
      page_icon="📚", 
     layout="wide",
