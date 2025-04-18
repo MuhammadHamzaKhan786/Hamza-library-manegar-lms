@@ -5,6 +5,8 @@ import os
 import datetime
 import requests
 import time
+import plotly.express as px
+import plotly.graph_objects as go 
 from streamlit_lottie import st_lottie
 
 # set page conf
