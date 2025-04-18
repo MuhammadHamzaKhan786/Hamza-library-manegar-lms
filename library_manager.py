@@ -142,16 +142,20 @@ def add_book(title, author, publication_year, genre, read_status):
     st.session_state.library.append(book)
     save_library()
     st.session_state.book_added = True
-    time.sleep(0.5)  # Slight delay for animation effect
+    time.sleep(0.5)  
 
 # Remove a book from the library
 def remove_book(index):
     if 0 <= index < len(st.session_state.library):
+
+
         del st.session_state.library[index]
         save_library()
         st.session_state.book_removed = True
-        return True
-    return False
+        time.sleep(0.5)
+        st.success("Book removed successfully!")
+    else:
+        st.error("Invalid book index.")
 
 # Search for books in the library
 def search_books(search_term, search_by):
@@ -320,10 +324,7 @@ if st.session_state.current_view == "add":
         
         with col2:
             genre = st.selectbox("Genre", [
-                "Fiction", "Non-Fiction", "Science Fiction", "Fantasy", 
-                "Mystery", "Romance", "Thriller", "Biography", 
-                "History", "Self-Help", "Poetry", "Science", 
-                "Philosophy", "Religion", "Art", "Other"
+               "Fiction", "Non-Fiction", "Biography", "Mystery", "Thriller", "Fantasy", "Science Fiction", "Romance", "Horror", "Self-Help", "History", "Poetry", "Children's", "Young Adult", "Graphic Novel", "Cookbook", "Travel", "Science", "Philosophy", "Religion", "Comics", "Classic Literature","Professional", "Business", "Technology", "Health", "Sports", "True Crime", "Memoir", "Anthology", "Short Stories", "Essays", "Drama", "Adventure"
             ])
             read_status = st.radio("Read Status", ["Read", "Unread"], horizontal=True)
             read_bool = read_status == "Read"
