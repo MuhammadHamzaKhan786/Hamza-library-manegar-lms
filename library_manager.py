@@ -49,14 +49,24 @@ st.markdown("""
         border-radius: 0.375rem;
     }
     .book-card {
-        background-color:#abdbe3;
-         font-weight: bold;
-        border-radius: 0.5rem;
-        padding: 1rem;
-        margin-bottom: 1rem;
-        border-left: 5px solid #3B82F6;
-        transition: transform 0.3s ease;
+    background-color: #abdbe3;
+    color: #000; /* Default for light theme */
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #3B82F6;
+    transition: transform 0.3s ease;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .book-card {
+        background-color: #1F2937; /* darker background for dark theme */
+        color: #E5E7EB; /* light text */
+        border-left: 5px solid #60A5FA;
     }
+
     .book-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
