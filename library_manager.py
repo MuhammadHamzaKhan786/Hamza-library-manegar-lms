@@ -452,24 +452,23 @@ elif st.session_state.current_view == "stats":
             for author, count in top_authors.items():
                 st.markdown(f"**{author}**: {count} book{'s' if count > 1 else ''}")
 
-# Footer# Footer
+# Footer
+# Footer
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; font-size: 0.9rem;'>
     © 2025 Hamza Khan | Personal Library Manager | Created with ❤️ using Streamlit  
     <br><br>
-    <a href="https://github.com/yourusername" target="_blank" style="margin-right: 10px;">
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+    <a href="https://github.com/MuhammadHamzaKhan786" target="_blank" style="margin-right: 15px;">
+        <img src="https://img.icons8.com/ios-filled/30/#1483fa/github.png" alt="GitHub"/>
     </a>
-    <a href="https://www.linkedin.com/in/yourusername" target="_blank" style="margin-right: 10px;">
-        <img src="https://img.icons8.com/ios-filled/30/000000/linkedin.png"/>
+    <a href="https://www.linkedin.com/in/muhammad-hamza-khan-6234772bb/" target="_blank" style="margin-right: 15px;">
+        <img src="https://img.icons8.com/ios-filled/30/#1483fa/linkedin.png" alt="LinkedIn"/>
     </a>
-    <a href="https://yourportfolio.com" target="_blank">
-        <img src="https://img.icons8.com/ios-filled/30/000000/domain.png"/>
+    <a href="https://personal-portfolio-hamza.vercel.app/" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/30/#1483fa/domain.png" alt="Portfolio"/>
     </a>
 </div>
 """, unsafe_allow_html=True)
-st.markdown("---")
-st.markdown("© 2025 Hamza Khan Personal Library Manager | Created with Love and Streamlit", unsafe_allow_html=True)
 
 
