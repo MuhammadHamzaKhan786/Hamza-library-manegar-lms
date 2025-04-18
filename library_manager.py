@@ -49,12 +49,12 @@ st.markdown("""
         border-radius: 0.375rem;
     }
     .book-card {
-        background-color: #FEF3C7;
+        background-color: #F59E0B;
          font-weight: bold;
         border-radius: 0.5rem;
         padding: 1rem;
         margin-bottom: 1rem;
-        border-left: 5px solid #3B82F6;
+        border-left: 5px solid white;
         transition: transform 0.3s ease;
     }
     .book-card:hover {
@@ -63,7 +63,7 @@ st.markdown("""
     }
     .read-badge {
         background-color: #10B981;
-        color: black;
+        color: white;
         padding: 0.25rem 0.75rem;
         border-radius: 1rem;
         font-size: 0.875rem;
