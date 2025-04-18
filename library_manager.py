@@ -49,12 +49,12 @@ st.markdown("""
         border-radius: 0.375rem;
     }
     .book-card {
-        background-color: #F59E0B;
+        background-color:#10B981;
          font-weight: bold;
         border-radius: 0.5rem;
         padding: 1rem;
         margin-bottom: 1rem;
-        border-left: 5px solid white;
+        border-left: 5px solid #3B82F6;
         transition: transform 0.3s ease;
     }
     .book-card:hover {
